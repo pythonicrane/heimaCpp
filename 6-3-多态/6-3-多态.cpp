@@ -84,6 +84,7 @@ int main() {
 	tb.A::print();
 	printT(tb);//1.等同上一句，没有虚函数，不触发多态
 	vprintT(tb);//2.满足多态三要素，触发多态
+	tb.A::vprint();
 
 	
 	tc.vprint(10);//3.调用重载版本
