@@ -55,7 +55,7 @@ MyString::MyString(const MyString &s)
 	strcpy(str, s.str);
 }
 
-ostream& operator<<(ostream &os, MyString &s)
+ostream& operator<<(ostream &os,const MyString &s)
 {
 	os << s.str;
 	return os;
@@ -116,4 +116,19 @@ MyString MyString::operator+(const MyString& s)
 	strcpy(tmp.str, this->str);
 	strcat(tmp.str, s.str);
 	return tmp;
+}
+
+bool MyString::operator==(const MyString &s)
+{
+	if (this->len != s.len) {
+		return false;
+	}
+	else {
+		return !strcmp(this->str, s.str);
+	}
+}
+
+bool MyString::operator!=(const MyString &s)
+{
+	return !(*this == s);
 }

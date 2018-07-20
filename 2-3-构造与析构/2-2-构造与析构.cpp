@@ -1,10 +1,11 @@
 /**-------------------------------------------------------------
 * @Author       : Zhao Heln
-* @Time         : 2018年7月13日10:29:53
-* @Software     : Visual Studio Code
-* @Project      : 深度探索C++对象模型
-* @Problem      : 临时性对象
+* @Time         : 2018年7月20日11:12:29
+* @Software     : Visual Studio 2017
+* @Project      : 黑马程序员基础
+* @Problem      : 类
 * @Description  :
+*
 -------------------------------------------------------------**/
 #include <iostream>
 using namespace std;

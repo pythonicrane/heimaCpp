@@ -1,31 +1,26 @@
 /**-------------------------------------------------------------
 * @Author       : Zhao Heln
-* @Time         : 2018年7月20日11:12:45
+* @Time         : 2018年7月20日14:44:27
 * @Software     : Visual Studio 2017
 * @Project      : 黑马程序员基础
-* @Problem      : 自定义String类
+* @Problem      : 7-1-类的赋值兼容性问题
 * @Description  :
 *
+1.子类对象可以当做父类对象使用
+2.子类对象可以直接赋值给父类对象
+3.子类对象可以直接初始化父类对象
+4.父类指针可以直接指向子类对象
+5.父类引用可以直接引用子类对象
+6.上面规则都不可以反过来使用
 -------------------------------------------------------------**/
-
 #include<iostream>
-#include"MyString.h"
 using namespace std;
+
 
 
 int main() {
 
-	MyString s1("abc");
-	MyString s2(s1);
-	MyString s3("123");
 
-	//s1 + s2;
 
-	cout << s1 << endl;
-	cout << s2 << endl;
-	cout << s3 << endl;
-
-	cout << s1 + s2 + s3 << endl;//要重载<<的const版本才能打印s1+s2;
-	
 	system("pause");
 }
