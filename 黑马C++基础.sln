@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-2-类的赋值兼容性�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-1-vptr分步初始化", "7-1-vptr分步初始化\7-1-vptr分步初始化.vcxproj", "{F2C2886E-A2FC-4810-A94E-D935C63A308E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-1-函数指针", "8-1-函数指针\8-1-函数指针.vcxproj", "{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{F2C2886E-A2FC-4810-A94E-D935C63A308E}.Release|x64.Build.0 = Release|x64
 		{F2C2886E-A2FC-4810-A94E-D935C63A308E}.Release|x86.ActiveCfg = Release|Win32
 		{F2C2886E-A2FC-4810-A94E-D935C63A308E}.Release|x86.Build.0 = Release|Win32
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Debug|x64.ActiveCfg = Debug|x64
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Debug|x64.Build.0 = Debug|x64
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Debug|x86.Build.0 = Debug|Win32
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Release|x64.ActiveCfg = Release|x64
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Release|x64.Build.0 = Release|x64
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Release|x86.ActiveCfg = Release|Win32
+		{59AB5920-6F32-42D8-8A9D-766B9F59D4A5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
